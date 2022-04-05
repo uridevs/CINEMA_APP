@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h2>{{film.name}}</h2>
+<hr>
+<p>Directed By: {{film.author}} {{film.author.last_name}}</p><br>
+<h5>Description:</h5>
+<p>{{film.sinopsis}}</p>
+
+{% endblock %}
